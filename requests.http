@@ -1,0 +1,24 @@
+### POSTS LIST
+GET http://localhost:3000/posts
+
+
+
+### CREATE POST
+POST http://localhost:3000/posts
+Content-Type: application/json
+
+{
+  "title": "xx",
+  "content": "'; TRUNCATE TABLE posts; --"
+}
+
+
+### DETAILS POST
+GET http://localhost:3000/posts/7
+
+
+
+### DELETE POST
+DELETE http://localhost:3000/posts/8;%20TRUNCATE%20TABLE%20posts
+
+
